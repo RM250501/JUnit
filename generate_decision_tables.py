@@ -4,7 +4,7 @@ import openpyxl
 import javalang
 
 # Javaファイル探索ディレクトリ。リポジトリ構成によって適宜修正
-SRC_ROOT = 'src'  # 例: src/ 配下のすべての Java ファイルが対象
+SRC_ROOT = '.'  # 例: src/ 配下のすべての Java ファイルが対象
 
 def extract_conditions_from_java(code):
     """if/switch などの条件式抽出"""
